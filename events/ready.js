@@ -270,7 +270,7 @@ module.exports = client => {
       let embed = new MessageEmbed()
         .setTitle(title)
         .setColor(color)
-        .addField('Panel Stats', panel)
+        .addField('Panel Stats', `${panel}`, true)
         .setFooter(embedfooter)
         .setThumbnail(client.user.avatarURL())
       if (enablets === true) {
