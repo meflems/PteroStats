@@ -17,7 +17,7 @@ module.exports = client => {
   let time = config.refreshtime
 
   let hosturl = config.panel.url
-  let adminapikey = config.panel.adminkey
+  let adminapikey = process.env.ADMIN_KEY
 
   let statusonline = config.status.online
   let statusoffline = config.status.offline
