@@ -2,7 +2,7 @@
 # If you need help, join our discord server here: https://discord.gg/zv6maQRah3
 
 # Bot Info's
-token: `process.env.TOKEN` # Put bot token here, check https://discord.dev to create and get bot token
+token: `${process.env.TOKEN}` # Put bot token here, check https://discord.dev to create and get bot token
 botstatus:
   enable: false # Enable Custom Status (MUST BE "true" OR "false")
   text: 'Uptime FrownMC Cloud' # Bot Status Message
@@ -15,7 +15,7 @@ refreshtime: 15 # Time when the embed edited/refreshed (MUST BE A SECONDS) (RECO
 # Panel Info's
 panel:
   url: 'https://panel.frownmc.xyz' # Put panel url here. Example: https://panel.purenodes.net
-  adminkey: `process.env.ADMIN_KEY` # Put Admin Apikey here. check https://your.host.url/admin/api (your.host.url is an example link) to get the Admin ApiKey
+  adminkey: `${process.env.ADMIN_KEY}` # Put Admin Apikey here. check https://your.host.url/admin/api (your.host.url is an example link) to get the Admin ApiKey
 
 # Embed Configuration
 embed: 
