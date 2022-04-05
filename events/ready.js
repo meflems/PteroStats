@@ -265,12 +265,12 @@ module.exports = client => {
       }
 
       let embedfooter = 'Updated every ' + time + ' seconds'
-      if (enablef === true) embedfooter = 'Updated every ' + time + ' seconds | ' + footer
+      if (enablef === true) embedfooter = 'Updated setiap ' + time + ' detik | ' + footer
 
       let embed = new MessageEmbed()
         .setTitle(title)
         .setColor(color)
-        .addField('Panel Stats', panel)
+        .addField('Node Stats', panel)
         .setFooter(embedfooter)
         .setThumbnail(client.user.avatarURL())
       if (enablets === true) {
