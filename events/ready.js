@@ -1,6 +1,6 @@
 module.exports = client => {
 
-  //Code are very sensitive, please changes things on config.yml instead
+  //Code are very sensitive, please changes thngs on config.yml instead
   
   const { MessageEmbed } = require('discord.js')
   const axios = require('axios')
