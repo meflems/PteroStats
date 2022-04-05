@@ -14,7 +14,7 @@ refreshtime: 15 # Time when the embed edited/refreshed (MUST BE A SECONDS) (RECO
 
 # Panel Info's
 panel:
-  url: 'https://panel.frownmc.xyz' # Put panel url here. Example: https://panel.purenodes.net
+  url: 'http://panel.frownmc.xyz' # Put panel url here. Example: https://panel.purenodes.net
   adminkey: 'some adminapikey' # Put Admin Apikey here. check https://your.host.url/admin/api (your.host.url is an example link) to get the Admin ApiKey
 
 # Embed Configuration
