@@ -284,7 +284,7 @@ module.exports = client => {
 
       let messages = await ch.messages.fetch({limit: 10})
       messages = messages.filter(m => m.author.id === client.user.id).last();
-      ch.send(embed)
+      messages.edit(embed)
 
 
       console.log(chalk.cyan('[PteroStats Checker] ') + chalk.green('Posted Stats'))
