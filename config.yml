@@ -41,7 +41,7 @@ resource:
   servers: true # Enable Total server on the node to resource text (MUST BE "true" OR "false")
   allocations: true # Enable Total Allocation on the node to resource text (MUST BE "true" OR "false")
   location: true # Enable location short name on the node to resource text (MUST BE "true" OR "false")
-  unit: 'gb' # Must be 'mb', 'gb', or 'percent'
+  unit: 'percent' # Must be 'mb', 'gb', or 'percent'
 
 # Developers feature
 debug: false # Enable and Disable debug log to console
