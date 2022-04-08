@@ -270,8 +270,8 @@ module.exports = client => {
       let embed = new MessageEmbed()
         .setTitle(title)
         .setColor(color)
-        .addField('Youtuber', `${youtube}`, true)
-        .addField('Panel Stats', `${process.env.YOUTUBE}`, true)
+        .addField('Youtuber', `${process.env.YOUTUBE}`, true)
+        .addField('Panel Stats', `${panel}`, true)
         .setFooter(embedfooter)
         .setThumbnail(client.user.avatarURL())
       if (enablets === true) {
